@@ -34,6 +34,9 @@ body{margin:0;background:#FBF1EE}
 a{color:#241515}a:hover{color:#5A2A27}
 .btn:hover{background:#c90b5a !important}
 .btn-light:hover{background:#ffffff !important}
+.bolinha{display:inline-block;width:10px;height:10px;margin-right:10px;border-radius:50%;background:#f50f6f;animation:brilho 1.6s ease-out infinite}
+@keyframes brilho{0%{box-shadow:0 0 0 0 rgba(245,15,111,.7)}70%,100%{box-shadow:0 0 0 10px rgba(245,15,111,0)}}
+@media (prefers-reduced-motion:reduce){.bolinha{animation:none}}
 .credito{color:#E6CFCA;text-decoration:none}
 .credito:hover,.credito:focus,.credito:active{color:#E6CFCA;text-decoration:underline}
 </style>
@@ -58,9 +61,10 @@ a{color:#241515}a:hover{color:#5A2A27}
   <!-- HERO -->
   <section id="topo" style="background: #F3A097; padding: 72px 24px 88px; text-align: center">
     <div style="max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 24px">
-      <h1 style="margin: 0; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 800; letter-spacing: -0.02em; font-size: clamp(38px, 6vw, 72px); line-height: 1.08">Beleza, cuidados e economia <em style="font-style: italic">em um só lugar</em></h1>
-      <p style="margin: 0; max-width: 520px; font-size: 18px; line-height: 1.6">Encontre as melhores ofertas em um só lugar! Cupons exclusivos, descontos especiais e oportunidades que valem a pena.</p>
+      <h1 style="margin: 0; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 800; letter-spacing: -0.02em; font-size: clamp(38px, 6vw, 72px); line-height: 1.08">Achadinhos de beleza com até 70% de desconto <em style="font-style: italic">em um só lugar</em></h1>
+      <p style="margin: 0; max-width: 520px; font-size: 18px; line-height: 1.6">Ofertas imperdíveis em um só lugar, com cupons exclusivos e descontos especiais!</p>
       <a href="https://chat.whatsapp.com/E79PHb5Wjd8DKiwAovekxx?s=cl&p=i&iam=2" class="btn" style="margin-top: 8px; background: #f50f6f; color: #FBF1EE; text-decoration: none; padding: 22px clamp(20px, 6vw, 48px); font-size: 16px; text-align: center; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600">Quero entrar no grupo</a>
+      <p style="margin: 0; font-size: 16px; line-height: 1.5; font-weight: 500; text-wrap: balance"><span class="bolinha" aria-hidden="true"></span>Mais de <strong style="font-weight: 800">1.893 mulheres</strong> já economizam com o grupo</p>
     </div>
   </section>
 
